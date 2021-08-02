@@ -1,0 +1,6 @@
+name: bastion
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Bastion on the personal account
