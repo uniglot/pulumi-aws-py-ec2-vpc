@@ -10,3 +10,12 @@
 - EC2 instance (CentOS 7.9.2009 x86_64)
   - Key pair
   - Elastic IP
+
+## Usage
+
+Create `secrets.py` and add your public key. The example format is presented on the file `secrets.py.example`. Then you can create a Pulumi stack and deploy it.
+
+```bash
+pulumi new aws-python  # Create a new Pulumi stack
+pulumi up  # Deploy the stack
+```
